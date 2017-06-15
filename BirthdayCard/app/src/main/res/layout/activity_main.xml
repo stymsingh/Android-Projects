@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/images"
+    android:background="@drawable/background"
+    android:alpha="0.8"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fontFamily="sans-serif-light"
+    android:paddingTop="25dp"
+    android:paddingLeft="20dp"
+    android:text="Happy Birthday,Shubham!"
+    android:textColor="@android:color/black"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:fontFamily="sans-serif-light"
+    android:paddingBottom="0dp"
+    android:text="From, Satyam!"
+    android:textColor="@android:color/black"
+    android:textSize="36sp"
+    android:textStyle="bold"
+    android:id="@+id/textView" />
+
+</RelativeLayout>
